@@ -5566,24 +5566,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Umutl\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ulasu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\DepressionPredictionUI.csproj",
+      "projectUniqueName": "C:\\Users\\ulasu\\Desktop\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\DepressionPredictionUI.csproj",
       "projectName": "DepressionPredictionUI",
-      "projectPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\DepressionPredictionUI.csproj",
-      "packagesPath": "C:\\Users\\Umutl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\obj\\",
+      "projectPath": "C:\\Users\\ulasu\\Desktop\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\DepressionPredictionUI.csproj",
+      "packagesPath": "C:\\Users\\ulasu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ulasu\\Desktop\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Umutl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ulasu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5591,7 +5586,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5639,7 +5633,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
