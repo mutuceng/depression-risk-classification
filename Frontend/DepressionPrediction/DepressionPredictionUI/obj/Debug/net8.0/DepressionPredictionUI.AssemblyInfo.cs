@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DepressionPredictionUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+612dd063229b3d076dd5038d9dd357a03dde1718")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0a5a260b8c7c165d830a05c31b53278c012ae19")]
 [assembly: System.Reflection.AssemblyProductAttribute("DepressionPredictionUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DepressionPredictionUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
