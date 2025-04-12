@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+
+    .container {
+        width: 90%;
+        max-width: 600px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .image-container {
+        position: relative;
+    }
+
+    .image-container img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .links {
+        margin-top: 20px;
+    }
+
+    .links a {
+        display: block;
+        margin: 10px 0;
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    .links a:hover {
+        color: #0056b3;
+    }
+</style>
+
+<div class="container">
+    <div
+        ><h3>
+            Kendine iyi bakmaya devam et :)
+         </h3>
+    </div>
+    <div class="image-container">
+        <a href="https://www.youtube.com/watch?v=20FvHbFa-8U&ab_channel=orkundk%27n%C4%B1ntarz%C4%B1 target="_blank">
+            <img src="~/images/nodepression.jpg" alt="Mental Health">
+        </a>
+    </div>
+    <div class="links">
+        <a href="https://www.mentalhealth.gov/" target="_blank">Mental sağlık hakkında bilgi almak için tıkla</a>
+        <a href="https://www.who.int/health-topics/mental-health" target="_blank">WHO Mental Sağlık</a>
+
+    </div>
+</div>
+

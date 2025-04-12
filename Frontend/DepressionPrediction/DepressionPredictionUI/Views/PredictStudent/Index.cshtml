@@ -1,0 +1,167 @@
+﻿@model StudentPredictViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    /* Form Kapsayıcı */
+    .form-container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Form Elemanları */
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .form-group {
+        display: flex;
+        gap: 15px;
+    }
+
+    .form-group input::placeholder, .form-group select::placeholder {
+        color: #999;
+    }
+
+    .form-group input, .form-group select {
+        flex: 1;
+    }
+
+    input, select, button {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input:focus, select:focus {
+        border-color: #d49a7b;
+        outline: none;
+    }
+
+    button {
+        background-color: #d49a7b;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #b77966;
+    }
+</style>
+
+<main class="form-container">
+    <form asp-controller="PredictEmployee" asp-action="Predict" method="post">
+
+        <!-- Cinsiyet -->
+
+        <select id="gender" name="gender" required>
+            <option value="" disabled selected hidden>Cinsiyet</option>
+            <option value="0">Erkek</option>
+            <option value="1">Kadın</option>
+        </select>
+
+
+        <!-- Yaş -->
+        <input type="number" id="age" name="age" min="0" placeholder="Yaş" required>
+
+
+        <!-- Şehir -->
+        <select id="city" name="city" required>
+            <option value="" disabled selected hidden>Şehir</option>
+            <option value="67">Ahmedabad</option>
+            <option value="67">Hyderabad</option>
+            <option value="63">Patna</option>
+            <option value="62">Rajkot</option>
+            <option value="62">Bhopal</option>
+            <option value="61">Kolkata</option>
+            <option value="61">Bangalore</option>
+            <option value="60">Indore</option>
+            <option value="60">Delhi</option>
+            <option value="60">Meerut</option>
+            <option value="59">Chennai</option>
+            <option value="59">Kalyan</option>
+            <option value="59">Thane</option>
+            <option value="58">Surat</option>
+            <option value="58">Faridabad</option>
+            <option value="58">Ludhiana</option>
+            <option value="57">Ghaziabad</option>
+            <option value="57">Visakhapatnam</option>
+            <option value="57">Vasai-Virar</option>
+            <option value="56">Vadodara</option>
+            <option value="56">Pune</option>
+            <option value="56">Nagpur</option>
+            <option value="55">Lucknow</option>
+            <option value="55">Srinagar</option>
+            <option value="55">Mumbai</option>
+            <option value="55">Kanpur</option>
+            <option value="53">Agra</option>
+            <option value="53">Varanasi</option>
+            <option value="52">Nashik</option>
+            <option value="52">Jaipur</option>
+            <option value="51">Nashik</option>
+            <option value="51">Agra</option>
+            <option value="50">Mumbai</option>
+            <option value="49">Varanasi</option>
+        </select>
+
+        <!-- Meslek -->
+        <input type="number" id="cgpa" name="cgpa" min="1" max="10" step="0.1" placeholder="Okul Ortalaman (1-10)" required>
+
+        <!-- İş Stresi -->
+        <input type="number" id="academicPressure" name="academic_pressure" min="1" max="5" step="0.1" placeholder="Akademik Stress Seviyesi (1-5)" required>
+
+        <!-- İş Tatmini -->
+        <input type="number" id="studySatisfaction" name="study_satisfaction" min="1" max="5" step="0.1" placeholder="Ders Çalışma Memnuniyeti (1-5)" required>
+
+        <!-- Uyku Süresi -->
+        <select id="sleepDuration" name="sleep_duration" required>
+            <option value="" disabled selected hidden>Uyku Saati</option>
+            <option value="4">Less than 5 hours</option>
+            <option value="2">7-8 hours</option>
+            <option value="3">5-6 hours</option>
+            <option value="1">More than 8 hours</option>
+        </select>
+
+        <!-- Diyet Alışkanlıkları -->
+        <select id="dietaryHabits" name="dietary_habits" required>
+            <option value="" disabled selected hidden>Beslenme Alışkanlıkları</option>
+            <option value="0">Sağlıklı</option>
+            <option value="1">Normal</option>
+            <option value="2">Sağlıksız</option>
+        </select>
+
+        <!-- İntihar Düşüncesi -->
+        <select id="suicidalThoughts" name="suicidal_thoughts" required>
+            <option value="" disabled selected hidden>Daha önce intihar etmeyi düşündün mü?</option>
+            <option value="0">Hayır</option>
+            <option value="1">Evet</option>
+        </select>
+
+        <!-- Çalışma/Okuma Saatleri -->
+        <input type="number" id="workStudyHours" name="work_study_hours" step="0.1" placeholder="Günde kaç saat çalışıyorsun?" required>
+
+        <!-- Finansal Stres -->
+        <input type="number" id="financialStress" name="financial_stress" min="1" max="5" step="0.1" placeholder="Finansal Stress Seviyen (1-5)" required>
+
+        <!-- Aile Mental Hastalık Geçmişi -->
+        <select id="familyHistoryMentalIllness" name="family_history_mental_illness" required>
+            <option value="" disabled selected hidden>Ailede Mental Hastalık Geçmişi</option>
+            <option value="0">Hayır</option>
+            <option value="1">Evet</option>
+        </select>
+
+        <!-- Gönder Butonu -->
+        <button type="submit">Gönder</button>
+    </form>
+</main>
+

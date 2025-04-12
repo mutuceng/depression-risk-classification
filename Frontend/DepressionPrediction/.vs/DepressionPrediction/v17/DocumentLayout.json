@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|c:\\users\\umutl\\belgeler\\github\\house-pricing\\frontend\\depressionprediction\\depressionpredictionui\\controllers\\predictemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|solutionrelative:depressionpredictionui\\controllers\\predictemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|c:\\users\\umutl\\belgeler\\github\\house-pricing\\frontend\\depressionprediction\\depressionpredictionui\\controllers\\nodepressioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|solutionrelative:depressionpredictionui\\controllers\\nodepressioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|c:\\users\\umutl\\belgeler\\github\\house-pricing\\frontend\\depressionprediction\\depressionpredictionui\\views\\predictstudent\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|solutionrelative:depressionpredictionui\\views\\predictstudent\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|c:\\users\\umutl\\belgeler\\github\\house-pricing\\frontend\\depressionprediction\\depressionpredictionui\\controllers\\depressioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|solutionrelative:depressionpredictionui\\controllers\\depressioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|c:\\users\\umutl\\belgeler\\github\\house-pricing\\frontend\\depressionprediction\\depressionpredictionui\\models\\employeepredictviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|solutionrelative:depressionpredictionui\\models\\employeepredictviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|c:\\users\\umutl\\belgeler\\github\\house-pricing\\frontend\\depressionprediction\\depressionpredictionui\\models\\studentpredictviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|solutionrelative:depressionpredictionui\\models\\studentpredictviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|c:\\users\\umutl\\belgeler\\github\\house-pricing\\frontend\\depressionprediction\\depressionpredictionui\\controllers\\predictstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|solutionrelative:depressionpredictionui\\controllers\\predictstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|c:\\users\\umutl\\belgeler\\github\\house-pricing\\frontend\\depressionprediction\\depressionpredictionui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D52C1B-CEA9-4F93-BCA5-136A000C855A}|DepressionPredictionUI\\DepressionPredictionUI.csproj|solutionrelative:depressionpredictionui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepressionController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Controllers\\DepressionController.cs",
+              "RelativeDocumentMoniker": "DepressionPredictionUI\\Controllers\\DepressionController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Controllers\\DepressionController.cs",
+              "RelativeToolTip": "DepressionPredictionUI\\Controllers\\DepressionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T10:08:28.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentPredictViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Models\\StudentPredictViewModel.cs",
+              "RelativeDocumentMoniker": "DepressionPredictionUI\\Models\\StudentPredictViewModel.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Models\\StudentPredictViewModel.cs",
+              "RelativeToolTip": "DepressionPredictionUI\\Models\\StudentPredictViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T21:35:29.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Views\\PredictStudent\\Index.cshtml",
+              "RelativeDocumentMoniker": "DepressionPredictionUI\\Views\\PredictStudent\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Views\\PredictStudent\\Index.cshtml",
+              "RelativeToolTip": "DepressionPredictionUI\\Views\\PredictStudent\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T21:10:36.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NoDepressionController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Controllers\\NoDepressionController.cs",
+              "RelativeDocumentMoniker": "DepressionPredictionUI\\Controllers\\NoDepressionController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Controllers\\NoDepressionController.cs",
+              "RelativeToolTip": "DepressionPredictionUI\\Controllers\\NoDepressionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T19:41:58.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PredictStudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Controllers\\PredictStudentController.cs",
+              "RelativeDocumentMoniker": "DepressionPredictionUI\\Controllers\\PredictStudentController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Controllers\\PredictStudentController.cs",
+              "RelativeToolTip": "DepressionPredictionUI\\Controllers\\PredictStudentController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T18:41:19.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeePredictViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Models\\EmployeePredictViewModel.cs",
+              "RelativeDocumentMoniker": "DepressionPredictionUI\\Models\\EmployeePredictViewModel.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Models\\EmployeePredictViewModel.cs",
+              "RelativeToolTip": "DepressionPredictionUI\\Models\\EmployeePredictViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T18:16:23.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DepressionPredictionUI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DepressionPredictionUI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T17:36:43.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PredictEmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Controllers\\PredictEmployeeController.cs",
+              "RelativeDocumentMoniker": "DepressionPredictionUI\\Controllers\\PredictEmployeeController.cs",
+              "ToolTip": "C:\\Users\\Umutl\\Belgeler\\GitHub\\house-pricing\\Frontend\\DepressionPrediction\\DepressionPredictionUI\\Controllers\\PredictEmployeeController.cs",
+              "RelativeToolTip": "DepressionPredictionUI\\Controllers\\PredictEmployeeController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T18:12:20.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

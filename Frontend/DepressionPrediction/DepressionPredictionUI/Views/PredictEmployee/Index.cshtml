@@ -1,0 +1,210 @@
+﻿@model EmployeePredictViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    /* Form Kapsayıcı */
+    .form-container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Form Elemanları */
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .form-group {
+        display: flex;
+        gap: 15px;
+    }
+
+    .form-group input::placeholder, .form-group select::placeholder {
+        color: #999;
+    }
+
+    .form-group input, .form-group select {
+        flex: 1;
+    }
+
+    input, select, button {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input:focus, select:focus {
+        border-color: #d49a7b;
+        outline: none;
+    }
+
+    button {
+        background-color: #d49a7b;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #b77966;
+    }
+</style>
+
+<main class="form-container">
+    <form asp-controller="PredictEmployee" asp-action="Predict" method="post">
+        
+            <!-- Cinsiyet -->
+
+        <select id="gender" name="gender" required>
+            <option value="" disabled selected hidden>Cinsiyet</option>
+            <option value="0">Erkek</option>
+            <option value="1">Kadın</option>
+        </select>
+    
+
+        <!-- Yaş -->
+        <input type="number" id="age" name="age" min="0" placeholder="Yaş" required>
+
+
+        <!-- Şehir -->
+        <select id="city" name="city" required>
+            <option value="" disabled selected hidden>Şehir</option>
+            <option value="15">Ludhiana</option>
+            <option value="27">Varanasi</option>
+            <option value="17">Mumbai</option>
+            <option value="12">Kanpur</option>
+            <option value="1">Ahmedabad</option>
+            <option value="25">Thane</option>
+            <option value="19">Nashik</option>
+            <option value="20">Patna</option>
+            <option value="22">Rajkot</option>
+            <option value="10">Jaipur</option>
+            <option value="21">Pune</option>
+            <option value="14">Lucknow</option>
+            <option value="16">Meerut</option>
+            <option value="0">Agra</option>
+            <option value="24">Surat</option>
+            <option value="6">Faridabad</option>
+            <option value="8">Hyderabad</option>
+            <option value="7">Ghaziabad</option>
+            <option value="13">Kolkata</option>
+            <option value="4">Chennai</option>
+            <option value="11">Kalyan</option>
+            <option value="18">Nagpur</option>
+            <option value="26">Vadodara</option>
+            <option value="28">Vasai-Virar</option>
+            <option value="5">Delhi</option>
+            <option value="2">Bangalore</option>
+            <option value="23">Srinagar</option>
+            <option value="29">Visakhapatnam</option>
+            <option value="3">Bhopal</option>
+            <option value="9">Indore</option>
+        </select>
+
+        <!-- Meslek -->
+        <select id="profession" name="profession" required>
+            <option value="" disabled selected hidden>Meslek</option>
+            <option value="0">Aşçı</option>
+            <option value="1">Öğretmen</option>
+            <option value="2">İş Analisti</option>
+            <option value="3">Finansal Analist</option>
+            <option value="4">Kimyager</option>
+            <option value="5">Elektrikçi</option>
+            <option value="6">Yazılım Mühendisi</option>
+            <option value="7">Veri Bilimci</option>
+            <option value="8">Fitter</option>
+            <option value="9">Pazarlama Müdürü</option>
+            <option value="10">Muhasebeci</option>
+            <option value="11">Girişimci</option>
+            <option value="12">İK Müdürü</option>
+            <option value="13">UX/UI Tasarımcısı</option>
+            <option value="14">İçerik Yazarı</option>
+            <option value="15">İşsiz</option>
+            <option value="16">Eğitim Danışmanı</option>
+            <option value="17">İnşaat Mühendisi</option>
+            <option value="18">Müdür</option>
+            <option value="19">Eczacı</option>
+            <option value="20">Finansal Analist</option>
+            <option value="21">Mimar</option>
+            <option value="22">Makine Mühendisi</option>
+            <option value="23">Müşteri Destek</option>
+            <option value="24">Danışman</option>
+            <option value="25">Hakim</option>
+            <option value="26">Araştırmacı</option>
+            <option value="27">Pilot</option>
+            <option value="28">Grafik Tasarımcı</option>
+            <option value="29">Seyahat Danışmanı</option>
+            <option value="30">Dijital Pazarlamacı</option>
+            <option value="31">Avukat</option>
+            <option value="32">Araştırma Analisti</option>
+            <option value="33">Satış Yöneticisi</option>
+            <option value="34">Doktor</option>
+            <option value="35">Yatırım Bankacısı</option>
+            <option value="36">Akademisyen</option>
+        </select>
+
+        <!-- İş Stresi -->
+        <input type="number" id="workPressure" name="work_pressure" min="1" max="5" step="0.1" placeholder="İş Stres Seviyesi (1-5)" required>
+
+        <!-- İş Tatmini -->
+        <input type="number" id="jobSatisfaction" name="job_satisfaction" min="1" max="5" step="0.1" placeholder="İş Memnuniyeti (1-5)" required>
+
+        <!-- Uyku Süresi -->
+        <select id="sleepDuration" name="sleep_duration" required>
+            <option value="" disabled selected hidden>Uyku Saati</option>
+            <option value="5">Less than 3 hours</option>
+            <option value="4">Less than 5 hours</option>
+            <option value="2">7-8 hours</option>
+            <option value="3">5-6 hours</option>
+            <option value="1">More than 8 hours</option>
+        </select>
+
+        <!-- Diyet Alışkanlıkları -->
+        <select id="dietaryHabits" name="dietary_habits" required>
+            <option value="" disabled selected hidden>Beslenme Alışkanlıkları</option>
+            <option value="0">Sağlıklı</option>
+            <option value="1">Normal</option>
+            <option value="2">Sağlıksız</option>
+        </select>
+
+        <!-- Eğitim Seviyesi -->
+        <select id="degree" name="degree" required>
+            <option value="" disabled selected hidden>Eğitim Seviyesi</option>
+            <option value="2">Üniversite</option>
+            <option value="1">Yüksek Lisans</option>
+            <option value="0">Doktora</option>
+        </select>
+
+        <!-- İntihar Düşüncesi -->
+        <select id="suicidalThoughts" name="suicidal_thoughts" required>
+            <option value="" disabled selected hidden>Daha önce intihar etmeyi düşündün mü?</option>
+            <option value="0">Hayır</option>
+            <option value="1">Evet</option>
+        </select>
+
+        <!-- Çalışma/Okuma Saatleri -->
+        <input type="number" id="workStudyHours" name="work_study_hours" step="0.1" placeholder="Günde kaç saat çalışıyorsun?" required>
+
+        <!-- Finansal Stres -->
+        <input type="number" id="financialStress" name="financial_stress" min="1" max="5" step="0.1" placeholder="Finansal Stress Seviyen (1-5)" required>
+
+        <!-- Aile Mental Hastalık Geçmişi -->
+        <select id="familyHistoryMentalIllness" name="family_history_mental_illness" required>
+            <option value="" disabled selected hidden>Ailede Mental Hastalık Geçmişi</option>
+            <option value="0">Hayır</option>
+            <option value="1">Evet</option>
+        </select>
+
+        <!-- Gönder Butonu -->
+        <button type="submit">Gönder</button>
+    </form>
+</main>
